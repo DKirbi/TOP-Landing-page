@@ -1,0 +1,27 @@
+{
+  "name": "top-landing-page",
+  "version": "1.0.0",
+  "description": "The odin project landing page exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DKirbi/TOP-Landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DKirbi/TOP-Landing-page/issues"
+  },
+  "homepage": "https://github.com/DKirbi/TOP-Landing-page#readme",
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
