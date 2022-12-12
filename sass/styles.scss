@@ -1,5 +1,85 @@
-ul {
-    li {
-        color: blue;
+$darkblue: #1f2937;
+$blue: #3882F6;
+$gray: #e5e7eb;
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.wrapper {
+    max-width: 80rem;
+    margin: auto;
+}
+
+button {
+    background-color: $blue;
+    color: $gray;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+header {
+    background-color: $darkblue;
+    color: $gray;
+    .nav-wrapper {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        justify-content: space-between;
+        .navigation {
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+        }
+
     }
 }
+
+.hero {
+    background-color: $darkblue;
+    color: $gray;
+    .hero-wrapper {
+        gap: 80px;
+        align-items: center;
+        padding: 40px 0;
+        display: flex;
+        .text {
+            align-self: stretch;
+            h1 {
+                font-size: 48px;
+                font-weight: 900;
+            }
+        }
+    }
+    .hero-image {
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+    }
+}
+
+.random-info {
+    .box-wrapper {
+        padding: 40px 0;
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+        .box {
+            flex: 1;
+            .box-image {
+                max-width:100%;
+                object-fit: cover;
+                height: 100%;
+                border-radius: 3rem;
+                aspect-ratio: 1/1;
+            }
+        }
+
+    }
+}
+
+

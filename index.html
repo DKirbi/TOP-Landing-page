@@ -5,46 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Landing page</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <div class="class">Header Logo</div>
-        <ul class="navigation">
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
+        <div class="wrapper">
+            <div class="nav-wrapper">
+                <div class="logo">Header Logo</div>
+                <ul class="navigation">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </div>
+        </div>
     </header>
     <section class="hero">
-        <div class="text">
-            <h1>This website is awesome</h1>
-            <p>This website has some cool text that goes here under this main title. It's the smaller text and the color is lower contrast.</p>
-            <button>Submit</button>
+        <div class="wrapper">
+            <div class="hero-wrapper">
+                <div class="text">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some cool text that goes here under this main title. It's the smaller text and the color is lower contrast.</p>
+                    <button>Submit</button>
+                </div>
+                <img src="images/04.jpeg" class="hero-image" />
+            </div>
         </div>
-        <img src="images/04.jpeg" class="hero-image" />
     </section>
     <section class="random-info">
-        <div class="box">Picture1</div>
-        <div class="box">Picture2</div>
-        <div class="box">Picture3</div>
-        <div class="box">Picture4</div>
+        <div class="wrapper">
+            <div class="box-wrapper">
+
+                <div class="box"><img src="images/01.jpeg" class="box-image" /></div>
+                <div class="box"><img src="images/02.jpeg" class="box-image" /></div>
+                <div class="box"><img src="images/03.jpeg" class="box-image" /></div>
+                <div class="box"><img src="images/05.jpeg" class="box-image" /></div>
+            </div>
+        </div>
     </section>
     <section class="testimonial">
-        The testimonial goes here
-
-    </section>
-    <section class="cta">
-        <div class="cta-wrapper">
-            <div class="text">
-                <h2>Call to action, it's time!</h2>
-                <p>Sign up for our product by clicking that button right over there.</p>
+        <div class="wrapper">
+            <div class="testimonial-wrapper">
+                The testimonial goes here
 
             </div>
-            <button>Sign up</button>
+        </div>
+    </section>
+    <section class="cta">
+        <div class="wrapper">
+            <div class="cta-wrapper">
+                <div class="text">
+                    <h2>Call to action, it's time!</h2>
+                    <p>Sign up for our product by clicking that button right over there.</p>
+
+                </div>
+                <button>Sign up</button>
+            </div>
         </div>
     </section>
     <footer>
-        <p>Copyright ©<span>The Odin Project 2021</span></p>
+        <div class="wrapper">
+            <p>Copyright ©<span>The Odin Project 2021</span></p>
+        </div>
     </footer>
+
 </body>
 </html>
