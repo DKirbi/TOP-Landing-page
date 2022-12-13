@@ -4,7 +4,7 @@ $gray: #e5e7eb;
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -20,6 +20,11 @@ button {
     padding: 10px 25px;
     border: 0;
     border-radius: 0.5rem;
+}
+
+.secondary {
+    color: $gray;
+    border: 1px solid $gray;
 }
 
 header {
@@ -63,17 +68,23 @@ header {
 }
 
 .random-info {
+    h2 {
+        text-align: center;
+        padding: 20px;
+    }
     .box-wrapper {
-        padding: 40px 0;
+        padding: 0 0 40px 0;
         display: flex;
         gap: 40px;
         justify-content: space-between;
         .box {
+            display: flex;
+            flex-direction: column;
+            height: auto;
             flex: 1;
             .box-image {
                 max-width:100%;
                 object-fit: cover;
-                height: 100%;
                 border-radius: 3rem;
                 aspect-ratio: 1/1;
             }
@@ -83,3 +94,44 @@ header {
 }
 
 
+.testimonial {
+    background-color: $gray;
+    .testimonial-wrapper {
+        padding: 100px 200px;
+        .testimonial {
+            font-size: 36px;
+            font-style: italic;
+            font-weight: 100;
+            margin-bottom: 0;
+        }
+        .author {
+            font-weight: 700;
+            text-align: right;
+            margin: 0;
+        }
+    }
+}
+
+.cta {
+    padding: 50px 0;
+    .cta-wrapper {
+        padding: 25px 0;
+        background-color: #3882F6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        .text {
+            color: #e5e7eb;
+        }
+    }
+}
+
+footer {
+    background-color: $darkblue;
+    padding: 40px 0;
+    p {
+        text-align: center;
+        color: $gray;
+    }
+}
