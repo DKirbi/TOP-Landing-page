@@ -20,7 +20,8 @@ button {
 
 .secondary {
   color: #e5e7eb;
-  border: 1px solid #e5e7eb;
+  border: 2px solid #e5e7eb;
+  padding: 10px 30px;
 }
 
 header {
@@ -32,6 +33,10 @@ header .nav-wrapper {
   align-items: center;
   height: 100px;
   justify-content: space-between;
+}
+header .nav-wrapper .logo {
+  font-weight: 700;
+  font-size: 28px;
 }
 header .nav-wrapper .navigation {
   display: flex;
@@ -107,7 +112,7 @@ header .nav-wrapper .navigation {
   padding: 50px 0;
 }
 .cta .cta-wrapper {
-  padding: 25px 0;
+  padding: 50px 100px;
   background-color: #3882F6;
   display: flex;
   align-items: center;
@@ -115,7 +120,13 @@ header .nav-wrapper .navigation {
   border-radius: 0.5rem;
 }
 .cta .cta-wrapper .text {
-  color: #e5e7eb;
+  color: #fff;
+}
+.cta .cta-wrapper .text h2 {
+  margin: 0;
+}
+.cta .cta-wrapper .text p {
+  margin: 10px 0;
 }
 
 footer {
