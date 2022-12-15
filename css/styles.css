@@ -11,17 +11,27 @@ body {
 
 button {
   background-color: #3882F6;
-  color: #e5e7eb;
+  color: #fff;
   font-size: 18px;
   padding: 10px 25px;
   border: 0;
   border-radius: 0.5rem;
 }
+button:hover {
+  background-color: rgb(33, 131, 187);
+  cursor: pointer;
+}
 
 .secondary {
-  color: #e5e7eb;
-  border: 2px solid #e5e7eb;
+  color: #fff;
+  border: 2px solid #fff;
   padding: 10px 30px;
+}
+.secondary:hover {
+  background-color: #fff;
+  color: #3882F6;
+  border-color: #fff;
+  cursor: pointer;
 }
 
 header {
@@ -42,6 +52,17 @@ header .nav-wrapper .navigation {
   display: flex;
   list-style-type: none;
   gap: 20px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(205, 237, 255);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(33, 131, 187);
 }
 
 .hero {

@@ -1,6 +1,7 @@
 $darkblue: #1f2937;
 $blue: #3882F6;
 $gray: #e5e7eb;
+$white: #fff;
 
 body {
     margin: 0;
@@ -15,17 +16,28 @@ body {
 
 button {
     background-color: $blue;
-    color: $gray;
+    color: $white;
     font-size: 18px;
     padding: 10px 25px;
     border: 0;
     border-radius: 0.5rem;
+    &:hover {
+        background-color: rgb(33, 131, 187);;
+        cursor: pointer;
+    }
 }
 
 .secondary {
-    color: $gray;
-    border: 2px solid $gray;
+    color: $white;
+    border: 2px solid $white;
     padding: 10px 30px;
+    &:hover {
+        background-color: $white;
+        color: $blue;
+        border-color: $white;
+        cursor:pointer;
+
+    }
 }
 
 header {
@@ -44,11 +56,22 @@ header {
             display: flex;
             list-style-type: none;
             gap: 20px;
+            
+            
         }
 
     }
 }
-
+.link {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+        color: rgb(205, 237, 255);
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color:rgb(33, 131, 187);
+    }
+}
 .hero {
     background-color: $darkblue;
     color: $gray;
